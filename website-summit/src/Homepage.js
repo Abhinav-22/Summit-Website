@@ -356,13 +356,13 @@ function Homepage() {
               </li>
               <li>
                 <p className="text-gray-600  dark:text-gray-600">For Queries</p>
-                <p className="text-gray-600  dark:text-gray-400 text-sm lg:text:md ">
+                <p className="text-gray-400  dark:text-gray-400 text-sm lg:text:md ">
                   iedckerala@startupmission.in
                 </p>
               </li>
 
               <li>
-                <p className="pt-5 text-gray-600  dark:text-gray-400">
+                <p className="pt-5 text-gray-400  dark:text-gray-400">
                   Bergin S Russel
                 </p>
                 <p className="text-gray-600  dark:text-gray-600">
@@ -390,13 +390,13 @@ function Homepage() {
                 <p className="text-gray-600   dark:text-gray-600  ">
                   For Queries
                 </p>
-                <p className="text-gray-600  dark:text-gray-400 text-sm lg:text:md">
+                <p className="text-gray-400  dark:text-gray-400 text-sm lg:text:md">
                   rsetiedc@rajagiritech.edu.in
                 </p>
               </li>
 
               <li>
-                <p className="pt-5 text-gray-600  dark:text-gray-400">
+                <p className="pt-5 text-gray-400  dark:text-gray-400">
                   Nitheesh Kurian
                 </p>
                 <p className="text-gray-600  dark:text-gray-600">
