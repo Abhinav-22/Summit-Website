@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { animateScroll as scroll } from "react-scroll";
 import pic from "./images/about.jpg";
 import iedc from "./images/iedc-wh.png";
-import ksum from "./images/ksum.png";
+import ksum from "./images/KSUM.png";
 import rsetiedc from "./images/rsetinnov.png";
 import rsetlogo from "./images/rset-transparent.png";
 
@@ -333,10 +333,10 @@ function Homepage() {
           </div>
         </div>
       </div>
-      <footer className="p-4 bg-white sm:p-6 dark:bg-gray-900 ">
-        <div className="grid flex-col grid-cols-2 flex  mt-5 ">
+      <footer className="pt-2 bg-white justify-center dark:bg-gray-900  ">
+        <div className="grid flex md:grid-cols-2 lg:grid-cols-2   ">
           <div className="justify-center center">
-            <div className="flex flex-row justify-center md:space-x-10 py-5">
+            <div className="flex flex-row justify-center space-x-10 py-5">
               <img className="h-12  w-26 sm:w-30" src={iedc} />
               <img className="h-14 w-30" src={ksum} />
             </div>
@@ -368,7 +368,7 @@ function Homepage() {
             </ul>
           </div>
           <div className="justify-center center">
-            <div className="flex flex-row justify-center md:space-x-10 py-5">
+            <div className="flex justify-center space-x-10 py-5">
               <img className="mt-3 h-10 w-30" src={rsetlogo} />
               <img className="h-16 w-30" src={rsetiedc} />
             </div>
@@ -382,7 +382,7 @@ function Homepage() {
                 </p>
               </li>
               <li>
-                <p className="text-gray-600   dark:text-gray-600 max-[440px]:pt-12 ">
+                <p className="text-gray-600   dark:text-gray-600  ">
                   For Queries
                 </p>
                 <p className="text-gray-600  dark:text-gray-400 text-sm lg:text:md">
