@@ -483,10 +483,27 @@ function Homepage() {
             </a>
           </div>
           <div class="w-full md:w-4/12 space-x-10 px-1 mx-auto text-center pt-4 text-gray-600 dark:text-gray-600">
-            <a href="">KSUM</a>
-            <a href="https://rsetiedc.in/">IEDC RSET</a>
-            <a href="https://www.rajagiritech.ac.in/">RSET</a>
-            <a href="https://iedc.startupmission.in/">IEDC</a>
+            <a
+              href="https://startupmission.kerala.gov.in/"
+              className="hover:text-orange-500"
+            >
+              KSUM
+            </a>
+            <a href="https://rsetiedc.in/" className="hover:text-orange-500">
+              IEDC RSET
+            </a>
+            <a
+              href="https://www.rajagiritech.ac.in/"
+              className="hover:text-orange-500"
+            >
+              RSET
+            </a>
+            <a
+              href="https://iedc.startupmission.in/"
+              className="hover:text-orange-500"
+            >
+              IEDC
+            </a>
           </div>
 
           <div class="w-full mx-auto text-center pt-2">
