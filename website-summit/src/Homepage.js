@@ -162,9 +162,9 @@ function Homepage() {
               </div>
             </div>
           </nav>
-          <div className="justify-center items-center  ">
-          <div class=" md:pt-1  mt-10   ">
-            <h1 className=" lg:text-2xl dark:text-white relative lg:right-44  sm:right-0 ">
+          <div className="  ">
+          <div class="pt-20 ">
+            <h1 className=" text-2xl sm:pr-80 sm:mr-7 dark:text-white  ">
               Asia's <span className="font-bold">largest</span>{" "}
               <span className="text-white">
                 summit for aspiring entrepreneur
@@ -173,18 +173,18 @@ function Homepage() {
           </div>
 
           <div className="flex flex-col">
-          <h1 className="  mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 sm:text-7xl md:text-6xl lg:text-8xl dark:text-white mx-auto inline">
+          <h1 className="pt-2 text-5xl font-extrabold leading-none tracking-tight text-gray-900 sm:text-7xl md:text-6xl lg:text-8xl dark:text-white mx-auto inline">
             IEDC <span className=" dark:text-orange-600">SUMMIT</span>{" "}
             <span className="text-white">2023</span>
           </h1>
-          <h1 className="  mb-4 text-2xl  leading-none tracking-tight text-gray-900 sm:text-3xl md:text-3xl lg:text-3xl dark:text-white m-auto inline">
+          <h1 className="right-44 pt-3 text-2xl  leading-none tracking-tight text-gray-900  dark:text-white">
             Unraveling dimensions uniting perspectives {" "}
           </h1>
           </div>
            
 
           <center>
-            <h4 className=" w-2/3 flex flex-row justify-end text-2xl dark:text-white">
+            <h4 className=" flex flex-row pt-5 sm:pr-60 justify-end text-2xl dark:text-white">
               <svg
                 className="h-7 w-7"
                 fill="currentColor"
@@ -202,7 +202,7 @@ function Homepage() {
             </h4>
           </center>
 
-          <div className="lg:pt-20 md:pt-10 sm:pt-20 flex justify-center">
+          <div className="pt-10 flex justify-center">
             <div className="">
               <p className="text-1xl font-bold basis-28  leading-none tracking-wider text-gray-900 sm:text-4xl md:text-5xl lg:text-6xl dark:text-white px-10">
                 {timerDays}
@@ -229,7 +229,7 @@ function Homepage() {
             </div>
           </div>
 
-          <div className=" space-x-28 flex flex-row justify-center pt-10 ">
+          <div className=" space-x-20 flex flex-row justify-center pt-10 ">
             <button
               type="button"
               className="tracking-wide w-80 h-14  sm:text-md rounded-full lg:text-lg focus:outline-none text-white bg-orange-600 hover:bg-orange-700 focus:ring-2 focus:ring-orange-600 rounded-lg sm:text-md font-bold px-5 lg:py-2.5 mr-2 mb-2 dark:focus:ring-orange-900"
@@ -281,9 +281,9 @@ function Homepage() {
       <div className="lg:flex md:flex bg-white" id="about-container">
         <div className="lg:w-1/2 lg:pl-10 md:w-1/2 md:pl-8 sm:pl-4 md:pr-4 sm:pr-4 mr-4">
           <div className="text-center ">
-              <h1 className= " text-5xl font-extrabold flex mb-3  md:w-1/2 md:pl-8 sm:pl-4 ">
-                ABOUT <span></span> <span className="text-orange-600">SUMMIT</span>
-              </h1>
+          <h1 className="pt-1 text-3xl md:text-4xl font-extrabold md:justify-start text-gray-900 pb-4  dark:text-black ">
+            ABOUT <span className=" dark:text-orange-600">SUMMIT</span>{" "}
+          </h1>
             <div className="flex">
               <div className="w-10 h-20 mr-5 mt-2 bg-orange-600"></div>
               <p className="text-justify font-normal text-xl ">
@@ -319,8 +319,8 @@ function Homepage() {
 			
 			<div className="grid flex-col grid-cols-2 flex ">
         <div className="justify-center center">
-				<div className="flex justify-center min-[500px]:space-x-10">
-					<img className="h-8 w-30" src={iedc} />
+				<div className="flex flex-row justify-center md:space-x-10">
+					<img className="h-8  w-24 sm:w-30" src={iedc} />
           <img className="h-14 w-30" src={ksum} />
         </div>
 					<ul>
@@ -331,7 +331,7 @@ function Homepage() {
 						</li>
 						<li>
             <p className="text-gray-600 hover:underline dark:text-gray-600">For Queries</p>
-            <p className="text-gray-600 hover:underline dark:text-gray-400">iedckerala@startupmission.in</p>
+            <p className="text-gray-600 hover:underline dark:text-gray-400 text-sm lg:text:md ">iedckerala@startupmission.in</p>
 						</li>
 
             <li>
@@ -343,7 +343,7 @@ function Homepage() {
 					</ul>
 				</div>
 				<div className="justify-center center">
-				<div className="flex justify-center min-[500px]:space-x-10">
+				<div className="flex flex-row justify-center md:space-x-10">
 					<img className="h-8 w-30" src={rsetlogo} />
           <img className="h-14 w-30" src={rsetiedc} />
         </div>
@@ -355,7 +355,7 @@ function Homepage() {
 						</li>
 						<li>
             <p className="text-gray-600 hover:underline  dark:text-gray-600 max-[440px]:pt-12 ">For Queries</p>
-            <p className="text-gray-600 hover:underline dark:text-gray-400">rsetiedc@rajagiritech.edu.in</p>
+            <p className="text-gray-600 hover:underline dark:text-gray-400 text-sm lg:text:md">rsetiedc@rajagiritech.edu.in</p>
 						</li>
 
             <li>
