@@ -7,10 +7,30 @@ import iedc from "./images/iedc-wh.png";
 import ksum from "./images/KSUM.png";
 import rsetiedc from "./images/rsetinnov.png";
 import rsetlogo from "./images/rset-transparent.png";
+import "./App.css";
 
 function Homepage() {
   const [navbar, setNavbar] = useState(false);
- 
+  
+  const [showButton, setShowButton] = useState(false);
+  const handleClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const handleScroll = () => {
+    if (window.pageYOffset > 100) {
+      setShowButton(true);
+    } else {
+      setShowButton(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
 
 
@@ -66,6 +86,24 @@ function Homepage() {
 
   return (
     <>
+    {showButton && (
+        <button onClick={handleClick} className="go-to-top-button" >
+          <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="orange"
+                          class="w-6 h-6 hover:animate-bounce"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M4.5 15.75l7.5-7.5 7.5 7.5"
+                          />
+                        </svg>
+        </button>
+      )}
       <div className="bg-black bg-opacity-100">
         <div className="bg-cover bg-[url('images/bgggg.jpg')] opacity-90 w-full h-screen pb-5">
           <nav className="w-full shadow">
