@@ -244,57 +244,9 @@ function Homepage() {
             </div>
           </div>
         </div>
-        <div className="bg-white justify pt-10 pb-10 w-screen">
-          <div class=" flex  bg-ban-ner w-screen   justify-around items-center   ">
-            <div className="flex  flex-col  items-start text-white  py-1  px-1 justify-center ">
-              <div className="lg:text-7xl md:text-4xl  sm:text-1xl  font-bold">
-                425
-              </div>
-              <div className="lg:text-4xl  md:text-2xl  sm:text-1xl">
-                IEDC's
-              </div>
-            </div>
 
-            <div className="flex flex-col  items-start text-white py-10 justify-center ">
-              <div className="lg:text-7xl  md:text-4xl sm:text-1xl  font-bold">
-                8K+
-              </div>
-              <div className="lg:text-4xl  md:text-2xl  sm:text-1xl sm:text-sm">
-                Changemakers
-              </div>
-            </div>
-
-            <div className="flex flex-col items-start  text-white py-10 ">
-              <div className="lg:text-7xl  md:text-4xl sm:text-1xl  font-bold">
-                50K+
-              </div>
-              <div className="lg:text-4xl  md:text-2xl  sm:text-1xl ">
-                Innovators
-              </div>
-            </div>
-
-            <div className="flex flex-col items-start	 text-white py-10 ">
-              <div className="lg:text-7xl md:text-4xl  sm:text-1xl  font-bold">
-                336+
-              </div>
-              <div className="lg:text-4xl md:text-2xl  sm:text-1xl ">
-                StartUps
-              </div>
-            </div>
-
-            <div className="flex flex-col 	items-start text-white  py-10 ">
-              <div className="lg:text-7xl  md:text-4xl sm:text-1xl font-bold">
-                5K+
-              </div>
-              <div className="lg:text-4xl  md:text-2xl sm:text-1xl">
-                Activities
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="lg:flex md:flex bg-white" id="about-container">
-          <div className="lg:w-1/2 lg:pl-10 md:w-1/2 md:pl-8 sm:pl-4 md:pr-4 sm:pr-4 mr-4">
+        <div className="lg:flex md:flex bg-white" id="about-container ">
+          <div className="lg:w-1/2 lg:pt-24 pl-10 md:w-1/2 md:pl-8 sm:pl-4 md:pr-4 sm:pr-4 mr-4">
             <div className="text-center ">
               <h1 className="pt-1 text-3xl md:text-4xl font-extrabold md:justify-start text-gray-900 pb-4  dark:text-black ">
                 ABOUT <span className=" dark:text-orange-600">SUMMIT</span>{" "}
@@ -333,6 +285,53 @@ function Homepage() {
           </div>
         </div>
       </div>
+      <div className="bg-white justify pt-3  w-screen">
+        <div class=" flex  bg-ban-ner w-full   justify-around items-center   ">
+          <div className="flex  flex-col  items-start text-white  py-1  px-1 justify-center ">
+            <div className="lg:text-7xl md:text-4xl  sm:text-1xl  font-bold">
+              425
+            </div>
+            <div className="lg:text-4xl  md:text-2xl  sm:text-1xl">IEDC's</div>
+          </div>
+
+          <div className="flex flex-col  items-start text-white py-10 justify-center ">
+            <div className="lg:text-7xl  md:text-4xl sm:text-1xl  font-bold">
+              8K+
+            </div>
+            <div className="lg:text-4xl  md:text-2xl  sm:text-1xl sm:text-sm">
+              Changemakers
+            </div>
+          </div>
+
+          <div className="flex flex-col items-start  text-white py-10 ">
+            <div className="lg:text-7xl  md:text-4xl sm:text-1xl  font-bold">
+              50K+
+            </div>
+            <div className="lg:text-4xl  md:text-2xl  sm:text-1xl ">
+              Innovators
+            </div>
+          </div>
+
+          <div className="flex flex-col items-start	 text-white py-10 ">
+            <div className="lg:text-7xl md:text-4xl  sm:text-1xl  font-bold">
+              336+
+            </div>
+            <div className="lg:text-4xl md:text-2xl  sm:text-1xl ">
+              StartUps
+            </div>
+          </div>
+
+          <div className="flex flex-col 	items-start text-white  py-10 ">
+            <div className="lg:text-7xl  md:text-4xl sm:text-1xl font-bold">
+              5K+
+            </div>
+            <div className="lg:text-4xl  md:text-2xl sm:text-1xl">
+              Activities
+            </div>
+          </div>
+        </div>
+      </div>
+
       <footer className="pt-2 bg-white justify-center dark:bg-gray-900  ">
         <div className="grid flex md:grid-cols-2 lg:grid-cols-2   ">
           <div className="justify-center center">
