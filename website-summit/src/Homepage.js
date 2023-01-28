@@ -397,7 +397,7 @@ function Homepage() {
 
               <li>
                 <p className="pt-5 text-gray-600  dark:text-gray-400">
-                  Mr Nitheesh Kurian
+                  Nitheesh Kurian
                 </p>
                 <p className="text-gray-600  dark:text-gray-600">
                   niteeshk@rajagiritech.edu.in
