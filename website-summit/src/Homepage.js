@@ -342,32 +342,28 @@ function Homepage() {
             </div>
             <ul>
               <li className="mb-4">
-                <p className="text-gray-600 hover:underline dark:text-gray-600">
+                <p className="text-gray-600  dark:text-gray-600">
                   G3B, Thejaswini, Technopark Campus
                 </p>
-                <p className="text-gray-600 hover:underline dark:text-gray-600">
+                <p className="text-gray-600  dark:text-gray-600">
                   Kariyavattom, Trivandrum, Kerala 695581
                 </p>
               </li>
               <li>
-                <p className="text-gray-600 hover:underline dark:text-gray-600">
-                  For Queries
-                </p>
-                <p className="text-gray-600 hover:underline dark:text-gray-400 text-sm lg:text:md ">
+                <p className="text-gray-600  dark:text-gray-600">For Queries</p>
+                <p className="text-gray-600  dark:text-gray-400 text-sm lg:text:md ">
                   iedckerala@startupmission.in
                 </p>
               </li>
 
               <li>
-                <p className="pt-5 text-gray-600 hover:underline dark:text-gray-400">
+                <p className="pt-5 text-gray-600  dark:text-gray-400">
                   Bergil S Russel
                 </p>
-                <p className="text-gray-600 hover:underline dark:text-gray-600">
+                <p className="text-gray-600  dark:text-gray-600">
                   iedckerala@startupmission.in
                 </p>
-                <p className="text-gray-600 hover:underline dark:text-gray-600">
-                  6238998379
-                </p>
+                <p className="text-gray-600  dark:text-gray-600">6238998379</p>
               </li>
             </ul>
           </div>
@@ -378,32 +374,30 @@ function Homepage() {
             </div>
             <ul className="">
               <li className="mb-4">
-                <p className="text-gray-600 hover:underline dark:text-gray-600">
+                <p className="text-gray-600  dark:text-gray-600">
                   Rajagiri Valley, Kakkanad
                 </p>
-                <p className="text-gray-600 hover:underline dark:text-gray-600">
+                <p className="text-gray-600  dark:text-gray-600">
                   Kochi, Kerala, 682039
                 </p>
               </li>
               <li>
-                <p className="text-gray-600 hover:underline  dark:text-gray-600 max-[440px]:pt-12 ">
+                <p className="text-gray-600   dark:text-gray-600 max-[440px]:pt-12 ">
                   For Queries
                 </p>
-                <p className="text-gray-600 hover:underline dark:text-gray-400 text-sm lg:text:md">
+                <p className="text-gray-600  dark:text-gray-400 text-sm lg:text:md">
                   rsetiedc@rajagiritech.edu.in
                 </p>
               </li>
 
               <li>
-                <p className="pt-5 text-gray-600 hover:underline dark:text-gray-400">
+                <p className="pt-5 text-gray-600  dark:text-gray-400">
                   Mr Nitheesh Kurian
                 </p>
-                <p className="text-gray-600 hover:underline dark:text-gray-600">
+                <p className="text-gray-600  dark:text-gray-600">
                   niteeshk@rajagiritech.edu.in
                 </p>
-                <p className="text-gray-600 hover:underline dark:text-gray-600">
-                  9497413879
-                </p>
+                <p className="text-gray-600  dark:text-gray-600">9497413879</p>
               </li>
             </ul>
           </div>
