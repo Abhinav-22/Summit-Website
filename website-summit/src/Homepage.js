@@ -74,10 +74,10 @@ function Homepage() {
                   <Link to="/" className="flex items-center">
                     <img
                       src={logo}
-                      className="h-10 mr-3 sm:h-20 dark:shadow-gray-800 left-10"
+                      className="h-10 mr-3 sm:h-20 shadow-gray-800 dark:shadow-gray-800 left-10"
                       alt="IEDC Logo"
                     />
-                    <span className="font-bold text-2xl self-center font-semibold whitespace-nowrap dark:text-white">
+                    <span className="font-bold text-2xl self-center font-semibold text-white whitespace-nowrap dark:text-white">
                       IEDC Summit
                     </span>
                   </Link>
@@ -164,7 +164,7 @@ function Homepage() {
           </nav>
           <div className="  ">
             <div class="pt-20 ">
-              <h1 className=" text-2xl sm:pr-80 sm:mr-7 dark:text-white  ">
+              <h1 className=" text-2xl text-white sm:pr-80 sm:mr-7 dark:text-white  ">
                 Asia's <span className="font-bold">largest</span>{" "}
                 <span className="text-white">
                   summit for aspiring entrepreneur
@@ -173,17 +173,20 @@ function Homepage() {
             </div>
 
             <div className="flex flex-col">
-              <h1 className="pt-2 text-5xl font-extrabold leading-none tracking-tight text-gray-900 sm:text-7xl md:text-6xl lg:text-8xl dark:text-white mx-auto inline">
-                IEDC <span className=" dark:text-orange-600">SUMMIT</span>{" "}
+              <h1 className="pt-2 text-5xl font-extrabold leading-none tracking-tight text-white sm:text-7xl md:text-6xl lg:text-8xl dark:text-white mx-auto inline">
+                IEDC{" "}
+                <span className="text-orange-600 dark:text-orange-600">
+                  SUMMIT
+                </span>{" "}
                 <span className="text-white">2023</span>
               </h1>
-              <h1 className="right-44 pt-3 text-2xl  leading-none tracking-tight text-gray-900  dark:text-white">
+              <h1 className="right-44 pt-3 text-2xl  leading-none tracking-tight text-white  dark:text-white">
                 Unraveling dimensions uniting perspectives{" "}
               </h1>
             </div>
 
             <center>
-              <h4 className=" flex flex-row pt-5 sm:pr-60 justify-end text-2xl dark:text-white">
+              <h4 className=" flex flex-row pt-5 sm:pr-60 justify-end text-2xl text-white dark:text-white">
                 <svg
                   className="h-7 w-7"
                   fill="currentColor"
@@ -203,25 +206,25 @@ function Homepage() {
 
             <div className="pt-10 flex justify-center">
               <div className="">
-                <p className="text-1xl font-bold basis-28  leading-none tracking-wider text-gray-900 sm:text-4xl md:text-5xl lg:text-6xl dark:text-white px-10">
+                <p className="text-1xl font-bold basis-28  leading-none tracking-wider text-white sm:text-4xl md:text-5xl lg:text-6xl dark:text-white px-10">
                   {timerDays}
                 </p>
                 <span className="text-white">Days</span>
               </div>
               <div className="">
-                <p className="text-1xl basis-28 font-bold leading-none tracking-wider text-gray-900 sm:text-4xl md:text-5xl lg:text-6xl dark:text-white px-10">
+                <p className="text-1xl basis-28 font-bold leading-none tracking-wider text-white sm:text-4xl md:text-5xl lg:text-6xl dark:text-white px-10">
                   {timerHours}
                 </p>
                 <span className="text-white">Hours</span>
               </div>
               <div className="">
-                <p className="text-1xl font-bold basis-28 leading-none tracking-wider text-gray-900 sm:text-4xl md:text-5xl lg:text-6xl dark:text-white px-10">
+                <p className="text-1xl font-bold basis-28 leading-none tracking-wider text-white sm:text-4xl md:text-5xl lg:text-6xl dark:text-white px-10">
                   {timerMinutes}
                 </p>
                 <span className="text-white">Minutes</span>
               </div>
               <div className="">
-                <p className="text-1xl font-bold basis-28 leading-none tracking-wider text-gray-900 sm:text-4xl md:text-5xl lg:text-6xl dark:text-white px-10">
+                <p className="text-1xl font-bold basis-28 leading-none tracking-wider text-white sm:text-4xl md:text-5xl lg:text-6xl dark:text-white px-10">
                   {timerSeconds}
                 </p>
                 <span className="text-white">Seconds</span>
@@ -231,13 +234,13 @@ function Homepage() {
             <div className=" space-x-20 flex flex-row justify-center pt-10 ">
               <button
                 type="button"
-                className="tracking-wide w-80 h-14  sm:text-md rounded-full lg:text-lg focus:outline-none text-white bg-orange-600 hover:bg-orange-700 focus:ring-2 focus:ring-orange-600 rounded-lg sm:text-md font-bold px-5 lg:py-2.5 mr-2 mb-2 dark:focus:ring-orange-900"
+                className="tracking-wide w-80 h-14  sm:text-md rounded-full lg:text-lg focus:outline-none text-white bg-orange-600 hover:bg-orange-700 focus:ring-2 focus:ring-orange-900 rounded-lg sm:text-md font-bold px-5 lg:py-2.5 mr-2 mb-2 dark:focus:ring-orange-900"
               >
                 Buy Tickets
               </button>
               <button
                 type="button"
-                className="tracking-wide  sm:text-md w-80 h-14 text-white hover:text-white border border-white-600 hover:bg-orange-600 focus:ring-2 focus:outline-none focus:ring-white-300 rounded-full lg:text-lg font-bold px-10 lg:py-2.5 text-center mr-10  mb-10 dark:border-white-300 dark:text-white dark:hover:text-white dark:hover:bg-orange-600 dark:focus:ring-orange-900"
+                className="tracking-wide  sm:text-md w-80 h-14 text-white hover:text-white border border-white-600 hover:bg-orange-600 focus:ring-2 focus:outline-none focus:ring-white-300 rounded-full lg:text-lg font-bold px-10 lg:py-2.5 text-center mr-10 border-white-300 mb-10 focus:ring-orange-900 border-white-300 dark:border-white-300 dark:text-white dark:hover:text-white dark:hover:bg-orange-600 dark:focus:ring-orange-900"
               >
                 View Schedule
               </button>
@@ -249,7 +252,10 @@ function Homepage() {
           <div className="lg:w-1/2 lg:pt-24 pl-10 md:w-1/2 md:pl-8 sm:pl-4 md:pr-4 sm:pr-4 mr-4">
             <div className="text-center ">
               <h1 className="pt-1 text-3xl md:text-4xl font-extrabold md:justify-start text-gray-900 pb-4  dark:text-black ">
-                ABOUT <span className=" dark:text-orange-600">SUMMIT</span>{" "}
+                ABOUT{" "}
+                <span className="text-orange-600 dark:text-orange-600">
+                  SUMMIT
+                </span>{" "}
               </h1>
               <div className="flex">
                 <div className="w-10 h-20 mr-5 mt-2 bg-orange-600"></div>
@@ -285,13 +291,13 @@ function Homepage() {
           </div>
         </div>
       </div>
-      <div className="bg-white justify pt-3  w-screen">
+      <div className="bg-white justify pt-3  w-full ">
         <div class=" flex  bg-ban-ner w-full   justify-around items-center   ">
           <div className="flex  flex-col  items-start text-white  py-1  px-1 justify-center ">
             <div className="lg:text-7xl md:text-4xl  sm:text-1xl  font-bold">
               425
             </div>
-            <div className="lg:text-4xl  md:text-2xl  sm:text-1xl">IEDC's</div>
+            <div className="lg:text-4xl  md:text-2xl  sm:text-1xl">IEDCs</div>
           </div>
 
           <div className="flex flex-col  items-start text-white py-10 justify-center ">
@@ -332,7 +338,7 @@ function Homepage() {
         </div>
       </div>
 
-      <footer className="pt-2 bg-white justify-center dark:bg-gray-900  ">
+      <footer className="pt-2 bg-gray-900 justify-center dark:bg-gray-900  ">
         <div className="grid flex md:grid-cols-2 lg:grid-cols-2   ">
           <div className="justify-center center">
             <div className="flex flex-row justify-center space-x-10 py-5">
@@ -405,7 +411,7 @@ function Homepage() {
           <div class="flex space-x-6 justify-center sm:mt-0 pt-8">
             <a
               href="https://www.facebook.com/people/RSET-IEDC/100068476695865/"
-              class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              class="text-gray-500 hover:text-white dark:hover:text-white"
             >
               <svg
                 class="w-5 h-5"
@@ -422,7 +428,7 @@ function Homepage() {
             </a>
             <a
               href="https://www.instagram.com/rsetiedc/?igshid=10lmkxmqfwgjh"
-              class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              class="text-gray-500 hover:text-white dark:hover:text-white"
             >
               <svg
                 class="w-5 h-5"
@@ -452,7 +458,7 @@ function Homepage() {
             </a>
             <a
               href="#"
-              class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              class="text-gray-500 hover:text-white dark:hover:text-white"
             >
               <svg
                 class="w-5 h-5"
@@ -466,7 +472,7 @@ function Homepage() {
 
             <a
               href="https://www.youtube.com/channel/UCVzfXE9R2PBBDJyJmPwSyQQ"
-              class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              class="text-gray-500 hover:text-white dark:hover:text-white"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
