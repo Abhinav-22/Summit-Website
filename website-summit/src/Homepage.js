@@ -158,8 +158,8 @@ function Homepage() {
               </div>
             </div>
           </nav>
-          <div className="justify-center items-center ">
-          <div class=" lg:pt-2  md:pt-1  mt-20 ">
+          <div className="justify-center items-center  ">
+          <div class=" md:pt-1  mt-10   ">
             <h1 className=" lg:text-2xl dark:text-white relative lg:right-44  sm:right-0 ">
               Asia's <span className="font-bold">largest</span>{" "}
               <span className="text-white">
@@ -228,7 +228,7 @@ function Homepage() {
           <div className=" space-x-28 flex flex-row justify-center pt-10 ">
             <button
               type="button"
-              className="tracking-wide w-80 h-14 rounded-full lg:text-lg focus:outline-none text-white bg-orange-600 hover:bg-orange-700 focus:ring-2 focus:ring-orange-600 rounded-lg sm:text-md font-bold px-5 py-2.5 mr-2 mb-2 dark:focus:ring-orange-900"
+              className="tracking-wide w-80 h-14  sm:text-md rounded-full lg:text-lg focus:outline-none text-white bg-orange-600 hover:bg-orange-700 focus:ring-2 focus:ring-orange-600 rounded-lg sm:text-md font-bold px-5 lg:py-2.5 mr-2 mb-2 dark:focus:ring-orange-900"
             >
               Buy Tickets
             </button>
@@ -242,14 +242,44 @@ function Homepage() {
           </div>
        
         </div>
+        <div className="bg-white justify pt-10 pb-10">
+        <div class=" flex  bg-ban-ner w-screen   justify-around items-center   ">
+
+        <div className= "flex  flex-col  items-start text-white  py-1  px-1 justify-center ">
+        <div  className = "lg:text-7xl md:text-4xl  sm:text-1xl  font-bold">425</div>
+        <div className = "lg:text-4xl  md:text-2xl  sm:text-1xl">IEDC's</div>
+        </div>
+
+        
+        <div className= "flex flex-col  items-start text-white py-10 justify-center ">
+        <div className = "lg:text-7xl  md:text-4xl sm:text-1xl  font-bold">8K+</div>
+        <div className = "lg:text-4xl  md:text-2xl  sm:text-1xl sm:text-sm">Changemakers</div>
+        </div>
+
+        <div className= "flex flex-col items-start  text-white py-10 ">
+        <div className = "lg:text-7xl  md:text-4xl sm:text-1xl  font-bold">50K+</div>
+        <div className = "lg:text-4xl  md:text-2xl  sm:text-1xl ">Innovators</div>
+        </div>
+
+        <div className= "flex flex-col items-start	 text-white py-10 ">
+        <div className = "lg:text-7xl md:text-4xl  sm:text-1xl  font-bold">336+</div>
+        <div className = "lg:text-4xl md:text-2xl  sm:text-1xl ">StartUps</div>
+        </div>
+
+        <div className= "flex flex-col 	items-start text-white  py-10 ">
+        <div className = "lg:text-7xl  md:text-4xl sm:text-1xl font-bold">5K+</div>
+        <div className = "lg:text-4xl  md:text-2xl sm:text-1xl">Activities</div>
+        </div>
+    </div>
+    </div>
+
+
       <div className="lg:flex md:flex bg-white" id="about-container">
         <div className="lg:w-1/2 lg:pl-10 md:w-1/2 md:pl-8 sm:pl-4 md:pr-4 sm:pr-4 mr-4">
-          <div className="text-center  ">
-            <div className="text-5xl flex py-7 font-extrabold ">
-              <h1 className="lg:pl-10 md:w-1/2 md:pl-8 sm:pl-4">
-                ABOUT <span className="text-orange-600"> SUMMIT</span>
+          <div className="text-center ">
+              <h1 className= " text-5xl font-extrabold flex mb-3  md:w-1/2 md:pl-8 sm:pl-4 ">
+                ABOUT <span></span> <span className="text-orange-600">SUMMIT</span>
               </h1>
-            </div>
             <div className="flex">
               <div className="w-10 h-20 mr-5 mt-2 bg-orange-600"></div>
               <p className="text-justify font-normal text-xl ">
