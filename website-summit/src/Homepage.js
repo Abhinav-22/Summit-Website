@@ -10,19 +10,20 @@ import rsetlogo from "./images/rset-transparent.png";
 
 function Homepage() {
   const [navbar, setNavbar] = useState(false);
-  const scrollToAbout = () => {
-    const element = document.getElementById("about-container");
-    scroll.scrollTo(element.offsetTop);
-  };
-  const scrollToEvents = () => {
-    const element = document.getElementById("event-container");
-    scroll.scrollTo(element.offsetTop);
+ 
+
+
+
+  const handleAboutScroll = () => {
+    const element = document.getElementById('section-about');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
-  const scrollToSpeaker = () => {
-    const element = document.getElementById("speaker-container");
-    scroll.scrollTo(element.offsetTop);
-  };
+
+
+
   const [timerDays, setTimerDays] = useState("00");
   const [timerHours, setTimerHours] = useState("00");
   const [timerMinutes, setTimerMinutes] = useState("00");
@@ -140,11 +141,11 @@ function Homepage() {
                       <Link to="/">Home</Link>
                     </li>
                     <li className="text-white hover:text-orange-600 text-xl font-medium px-3">
-                      <div className="cursor-pointer" onClick={scrollToAbout}>
+                      <div className="cursor-pointer" onClick={handleAboutScroll}>
                         About
                       </div>
                     </li>
-                    <li className="text-white hover:text-orange-600 text-xl font-medium px-3">
+                    {/* <li className="text-white hover:text-orange-600 text-xl font-medium px-3">
                       <div className="cursor-pointer" onClick={scrollToEvents}>
                         Events
                       </div>
@@ -156,7 +157,7 @@ function Homepage() {
                     </li>
                     <li className="text-white hover:text-orange-600 text-xl font-medium px-3">
                       <Link to="schedule">Schedule</Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -181,7 +182,7 @@ function Homepage() {
                 <span className="text-white">2023</span>
               </h1>
               <h1 className="right-44 pt-3 text-2xl  leading-none tracking-tight text-white  dark:text-white">
-                Unraveling dimensions uniting perspectives{" "}
+                Unravelling Dimensions Uniting Perspectives{" "}
               </h1>
             </div>
 
@@ -248,7 +249,12 @@ function Homepage() {
           </div>
         </div>
 
-        <div className="lg:flex md:flex bg-white" id="about-container ">
+
+
+
+
+{/* ************************************ABOUT************************************ */}
+        <div className="lg:flex md:flex bg-white " id="section-about">
           <div className="lg:w-1/2 lg:pt-24 pl-10 md:w-1/2 md:pl-8 sm:pl-4 md:pr-4 sm:pr-4 mr-4">
             <div className="text-center pt-8 ">
               <h1 className="pt-1 text-3xl md:text-4xl font-extrabold md:justify-start text-gray-900 pb-4  dark:text-black ">
