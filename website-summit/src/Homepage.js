@@ -400,7 +400,7 @@ function Homepage() {
                   Nitheesh Kurian
                 </p>
                 <p className="text-gray-600  dark:text-gray-600">
-                  niteeshk@rajagiritech.edu.in
+                  nitheeshk@rajagiritech.edu.in
                 </p>
                 <p className="text-gray-600  dark:text-gray-600">9497413879</p>
               </li>
