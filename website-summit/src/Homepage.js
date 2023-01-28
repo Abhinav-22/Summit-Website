@@ -242,7 +242,7 @@ function Homepage() {
           </div>
        
         </div>
-      <div className="lg:flex md:flex bg-white">
+      <div className="lg:flex md:flex bg-white" id="about-container">
         <div className="lg:w-1/2 lg:pl-10 md:w-1/2 md:pl-8 sm:pl-4 md:pr-4 sm:pr-4 mr-4">
           <div className="text-center  ">
             <div className="text-5xl flex py-7 font-extrabold ">
