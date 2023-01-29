@@ -293,8 +293,8 @@ function Homepage() {
 
 {/* ************************************ABOUT************************************ */}
         <div className="lg:flex md:flex bg-white " id="section-about">
-          <div className="lg:w-1/2 lg:pt-24 pl-10 md:w-1/2 md:pl-8 sm:pl-4 md:pr-4 sm:pr-4 mr-4">
-            <div className="text-center pt-8 ">
+          <div className="lg:w-1/2 lg:pt-24 pl-5 md:w-1/2 md:pl-8 sm:pl-4 md:pr-4 sm:pr-4 mr-10">
+            <div className="text-center pt-5 sm:pt-0 ">
               <h1 className="pt-1 text-3xl md:text-4xl font-extrabold md:justify-start text-gray-900 pb-4  dark:text-black ">
                 ABOUT{" "}
                 <span className="text-orange-600 dark:text-orange-600">
@@ -302,7 +302,7 @@ function Homepage() {
                 </span>{" "}
               </h1>
               <div className="flex">
-                <div className="w-10 h-20 mr-5 mt-2 bg-orange-600"></div>
+                <div className="w-10 h-20 mr-4  mt-2 bg-orange-600"></div>
                 <p className="text-justify font-normal text-xl ">
                   Kerala Startup Mission is organizing the seventh edition of
                   the flagship event- IEDC Summit 2023 and we, Rajagiri School
