@@ -526,7 +526,7 @@ function Homepage() {
                 width="20"
                 height="20"
                 fill="gray"
-                class="bi bi-linkedin"
+                class="bi bi-linkedin hover:bg-white"
                 viewBox="0 0 16 16"
               >
                 {" "}
