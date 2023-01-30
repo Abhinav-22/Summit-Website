@@ -8,13 +8,12 @@ import ksum from "./images/KSUM.png";
 import rsetiedc from "./images/rsetinnov.png";
 import rsetlogo from "./images/rset-transparent.png";
 import "./App.css";
-import './fonts/fragile.otf';
+import "./fonts/fragile.otf";
 import SpeakerDetails from "./SpeakerDetails";
-
 
 function Homepage() {
   const [navbar, setNavbar] = useState(false);
-  
+
   const [showButton, setShowButton] = useState(false);
   const handleClick = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -35,17 +34,12 @@ function Homepage() {
     };
   }, []);
 
-
-
   const handleAboutScroll = () => {
-    const element = document.getElementById('section-about');
+    const element = document.getElementById("section-about");
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
     }
   };
-
-
-
 
   const [timerDays, setTimerDays] = useState("00");
   const [timerHours, setTimerHours] = useState("00");
@@ -89,22 +83,22 @@ function Homepage() {
 
   return (
     <>
-    {showButton && (
-        <button onClick={handleClick} className="go-to-top-button" >
+      {showButton && (
+        <button onClick={handleClick} className="go-to-top-button">
           <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1.5"
-                          stroke="orange"
-                          class="w-6 h-6 hover:animate-bounce"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M4.5 15.75l7.5-7.5 7.5 7.5"
-                          />
-                        </svg>
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="orange"
+            class="w-6 h-6 hover:animate-bounce"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4.5 15.75l7.5-7.5 7.5 7.5"
+            />
+          </svg>
         </button>
       )}
       <div className="bg-black bg-opacity-100">
@@ -182,7 +176,10 @@ function Homepage() {
                       <Link to="/">Home</Link>
                     </li>
                     <li className="text-white hover:text-orange-600 text-xl font-medium px-3">
-                      <div className="cursor-pointer" onClick={handleAboutScroll}>
+                      <div
+                        className="cursor-pointer"
+                        onClick={handleAboutScroll}
+                      >
                         About
                       </div>
                     </li>
@@ -206,7 +203,7 @@ function Homepage() {
           </nav>
           <div className="  ">
             <div class="pt-20 ">
-              <h1 className=" text-2xl text-white sm:pr-80 md:pr-40 sm:mr-7 dark:text-white  ">
+              <h1 className=" text-2xl text-white sm:pr-80 md:pr-40 sm:mr-7 dark:text-white  font-poppins">
                 Asia's <span className="font-bold">largest</span>{" "}
                 <span className="text-white">
                   summit for Aspiring entrepreneur
@@ -226,10 +223,6 @@ function Homepage() {
                 Unravelling Dimensions Uniting Perspectives{" "}
               </h1>
             </div>
-
-            
-
-           
 
             <div className="pt-10 flex justify-center">
               <div className="">
@@ -257,27 +250,23 @@ function Homepage() {
                 <span className="text-white">Seconds</span>
               </div>
             </div>
-                    
 
             <h4 className=" flex justify-center pt-5 text-3xl sm:text-2xl md:text-3xl text-white dark:text-white">
-            <svg
-                  className="h-7 w-7 text-orange-600 dark:text-orange-600"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  aria-hidden="true"
-                >
-                  <path
-                    clipRule="evenodd"
-                    fillRule="evenodd"
-                    d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
-                  ></path>
-            </svg>
-            
+              <svg
+                className="h-7 w-7 text-orange-600 dark:text-orange-600"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <path
+                  clipRule="evenodd"
+                  fillRule="evenodd"
+                  d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
+                ></path>
+              </svg>
               Rajagiri School of Engineering and Technology
-            
             </h4>
-
 
             <div className=" space-x-20 flex flex-row justify-center pt-10 ">
               <button
@@ -296,11 +285,7 @@ function Homepage() {
           </div>
         </div>
 
-
-
-
-
-{/* ************************************ABOUT************************************ */}
+        {/* ************************************ABOUT************************************ */}
         <div className="lg:flex md:flex bg-white " id="section-about">
           <div className="lg:w-1/2 lg:pt-24 pl-5 md:w-1/2 md:pl-8 sm:pl-4 md:pr-4 sm:pr-4 mr-10">
             <div className="text-center pt-5 sm:pt-0 ">
@@ -345,11 +330,7 @@ function Homepage() {
         </div>
       </div>
 
-
-
-
-
-{/****************************************************************************** BANNER***************************************************************************** */}
+      {/****************************************************************************** BANNER***************************************************************************** */}
 
       <div className="bg-white justify pt-3  w-full ">
         <div class=" flex  bg-ban-ner w-full   justify-around items-center   ">
@@ -398,49 +379,33 @@ function Homepage() {
         </div>
       </div>
 
+      {/* ***********************************************SPEAKERS ***********************************/}
 
-
-
-
-
-
-{/* ***********************************************SPEAKERS ***********************************/}
-
-
-
-
-<div
-      className=" speaker-container pl-10 pr-10 pt-10 pb-10"
-      id="speaker-container"
-    >
-      <div className="mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 sm:text-7xl md:text-8xl lg:text-8xl dark:text-orange-600 m-auto inline font-face-gm">
-        Speakers
-      </div>
-      <div className=" flex flex-wrap justify-center ">
-        {SpeakerDetails.map((item) => (
-          <div className="flex flex-col ml-16 mr-10 mt-10">
-            
-
-            <img
-              className=" rounded-full	w-60 "
-              src={item.imagesrc}
-              alt="Speaker"
+      <div
+        className=" speaker-container pl-10 pr-10 pt-10 pb-10"
+        id="speaker-container"
+      >
+        <div className="mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 sm:text-7xl md:text-8xl lg:text-8xl dark:text-orange-600 m-auto inline font-face-gm">
+          Speakers
+        </div>
+        <div className=" flex flex-wrap justify-center ">
+          {SpeakerDetails.map((item) => (
+            <div className="flex flex-col ml-16 mr-10 mt-10">
+              <img
+                className=" rounded-full	w-60 "
+                src={item.imagesrc}
+                alt="Speaker"
               />
-        
-            <div className="text-3xl  text-orange-600">
-              {" "}
-              {item.name}
+
+              <div className="text-3xl  text-orange-600"> {item.name}</div>
+
+              <div className="text-2xl  opacity-70"> {item.occ}</div>
             </div>
-
-            
-            <div className="text-2xl  opacity-70"> {item.occ}</div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
 
-
-{/* ***********************************************************FOOTER ************************************************************/}
+      {/* ***********************************************************FOOTER ************************************************************/}
       <footer className="pt-2 bg-gray-900 justify-center dark:bg-gray-900  ">
         <div className="grid flex md:grid-cols-2 lg:grid-cols-2   ">
           <div className="justify-center center">
