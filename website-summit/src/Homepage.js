@@ -1,8 +1,7 @@
 import logo from "./images/logo.png";
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import { animateScroll as scroll } from "react-scroll";
-import pic from "./images/about.jpg";
+import pic from "./images/about.png";
 import iedc from "./images/iedc-wh.png";
 import ksum from "./images/KSUM.png";
 import rsetiedc from "./images/rsetinnov.png";
@@ -91,12 +90,12 @@ function Homepage() {
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="orange"
-            class="w-6 h-6 hover:animate-bounce"
+            class="w-9 h-9 hover:animate-bounce rounded-full bg-white shadow-xl"
           >
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
-              d="M4.5 15.75l7.5-7.5 7.5 7.5"
+              d="M7.5 13.5l4.5-4.5 3.5 4.5"
             />
           </svg>
         </button>
@@ -333,7 +332,7 @@ function Homepage() {
             </div>
           </div>
           <div className="lg:pl-10 lg:w-1/2 md:w-1/2 ">
-            <img className="pt-10 lg:w-90 " src={pic}></img>
+            <img className="pt-10 lg:w-90 max-[500px]:pl-4" src={pic}></img>
           </div>
         </div>
       </div>
