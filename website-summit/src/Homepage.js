@@ -113,7 +113,7 @@ function Homepage() {
                       className="h-10 mr-3 sm:h-20 shadow-gray-800 dark:shadow-gray-800 left-10"
                       alt="IEDC Logo"
                     />
-                    <span className="font-bold text-2xl self-center font-semibold text-white whitespace-nowrap dark:text-white">
+                    <span className="font-bold text-2xl self-center font-semibold text-white whitespace-nowrap dark:text-white font-poppins">
                       IEDC Summit
                     </span>
                   </Link>
@@ -172,10 +172,10 @@ function Homepage() {
                       navbar ? "bg-black bg-opacity-80 w-screen" : ""
                     }`}
                   >
-                    <li className="text-white hover:text-orange-600 text-xl font-medium px-3">
+                    <li className="text-white hover:text-orange-600 text-xl font-medium px-3 font-poppins">
                       <Link to="/">Home</Link>
                     </li>
-                    <li className="text-white hover:text-orange-600 text-xl font-medium px-3">
+                    <li className="text-white hover:text-orange-600 text-xl font-medium px-3 font-poppins">
                       <div
                         className="cursor-pointer"
                         onClick={handleAboutScroll}
@@ -203,7 +203,7 @@ function Homepage() {
           </nav>
           <div className="  ">
             <div class="pt-20 ">
-              <h1 className=" text-2xl text-white sm:pr-80 md:pr-40 sm:mr-7 dark:text-white  font-poppins">
+              <h1 className="font-poppins text-2xl text-white sm:pr-80 md:pr-40 sm:mr-7 dark:text-white  font-poppins">
                 Asia's <span className="font-bold">largest</span>{" "}
                 <span className="text-white">
                   summit for Aspiring entrepreneur
@@ -211,7 +211,7 @@ function Homepage() {
               </h1>
             </div>
 
-            <div className="flex flex-col">
+            <div className="flex flex-col font-poppins">
               <h1 className="pt-2 text-5xl font-extrabold leading-none tracking-tight text-white sm:text-7xl md:text-6xl lg:text-8xl dark:text-white mx-auto inline">
                 IEDC{" "}
                 <span className="text-orange-600 dark:text-orange-600">
@@ -219,12 +219,12 @@ function Homepage() {
                 </span>{" "}
                 <span className="text-white">2023</span>
               </h1>
-              <h1 className="right-44 pt-3 text-2xl  leading-none tracking-tight text-white  dark:text-white">
+              <h1 className="right-44 pt-3 text-2xl  leading-none tracking-tight text-white  dark:text-white font-poppins">
                 Unravelling Dimensions Uniting Perspectives{" "}
               </h1>
             </div>
 
-            <div className="pt-10 flex justify-center">
+            <div className="pt-10 flex justify-center font-poppins">
               <div className="">
                 <p className="text-1xl font-bold basis-28  leading-none tracking-wider text-white sm:text-4xl md:text-5xl lg:text-6xl dark:text-white px-10">
                   {timerDays}
@@ -251,7 +251,7 @@ function Homepage() {
               </div>
             </div>
 
-            <h4 className=" flex justify-center pt-5 text-3xl sm:text-2xl md:text-3xl text-white dark:text-white">
+            <h4 className=" flex justify-center pt-5 text-3xl sm:text-2xl md:text-3xl text-white dark:text-white font-poppins">
               <svg
                 className="h-7 w-7 text-orange-600 dark:text-orange-600"
                 fill="currentColor"
@@ -271,13 +271,13 @@ function Homepage() {
             <div className=" space-x-20 flex flex-row justify-center pt-10 ">
               <button
                 type="button"
-                className="tracking-wide w-80 h-14  sm:text-md rounded-full lg:text-lg focus:outline-none text-white bg-orange-600 hover:bg-orange-700 focus:ring-2 focus:ring-orange-900 rounded-lg sm:text-md font-bold px-5 lg:py-2.5 mr-2 mb-2 dark:focus:ring-orange-900"
+                className="tracking-wide w-80 h-14  sm:text-md rounded-full lg:text-lg focus:outline-none text-white bg-orange-600 hover:bg-orange-700 focus:ring-2 focus:ring-orange-900 rounded-lg sm:text-md font-bold px-5 lg:py-2.5 mr-2 mb-2 dark:focus:ring-orange-900 font-poppins"
               >
                 Buy Tickets
               </button>
               <button
                 type="button"
-                className="tracking-wide  sm:text-md w-80 h-14 text-white hover:text-white border border-white-600 hover:bg-orange-600 focus:ring-2 focus:outline-none focus:ring-white-300 rounded-full lg:text-lg font-bold px-10 lg:py-2.5 text-center mr-10 border-white-300 mb-10 focus:ring-orange-900 border-white-300 dark:border-white-300 dark:text-white dark:hover:text-white dark:hover:bg-orange-600 dark:focus:ring-orange-900"
+                className="font-poppins tracking-wide  sm:text-md w-80 h-14 text-white hover:text-white border border-white-600 hover:bg-orange-600 focus:ring-2 focus:outline-none focus:ring-white-300 rounded-full lg:text-lg font-bold px-10 lg:py-2.5 text-center mr-10 border-white-300 mb-10 focus:ring-orange-900 border-white-300 dark:border-white-300 dark:text-white dark:hover:text-white dark:hover:bg-orange-600 dark:focus:ring-orange-900"
               >
                 View Schedule
               </button>
@@ -286,18 +286,18 @@ function Homepage() {
         </div>
 
         {/* ************************************ABOUT************************************ */}
-        <div className="lg:flex md:flex bg-white " id="section-about">
+        <div className="lg:flex md:flex bg-white font-poppins " id="section-about">
           <div className="lg:w-1/2 lg:pt-24 pl-5 md:w-1/2 md:pl-8 sm:pl-4 md:pr-4 sm:pr-4 mr-10">
             <div className="text-center pt-5 sm:pt-0 ">
-              <h1 className="pt-1 text-3xl md:text-4xl font-extrabold md:justify-start text-gray-900 pb-4  dark:text-black ">
+              <h1 className="font-poppins pt-1 text-3xl md:text-4xl font-extrabold md:justify-start text-gray-900 pb-4  dark:text-black ">
                 ABOUT{" "}
-                <span className="text-orange-600 dark:text-orange-600">
+                <span className="font-poppins text-orange-600 dark:text-orange-600">
                   SUMMIT
                 </span>{" "}
               </h1>
               <div className="flex">
                 <div className="w-10 h-20 mr-4  mt-2 bg-orange-600"></div>
-                <p className="text-justify font-normal text-xl ">
+                <p className="text-justify font-normal text-xl font-poppins">
                   Kerala Startup Mission is organizing the seventh edition of
                   the flagship event- IEDC Summit 2023 and we, Rajagiri School
                   of Engineering and Technology, heartily welcome you to witness
@@ -306,7 +306,7 @@ function Homepage() {
                 </p>
               </div>
               <br />
-              <p className="ml-7 text-justify font-normal text-xl">
+              <p className="ml-7 text-justify font-normal text-xl font-poppins">
                 IEDC Summit is an amalgamation of events from a plethora of
                 domains, including technology, entrepreneurship, skill
                 development, and so much more. It facilitates as a platform for
@@ -318,7 +318,7 @@ function Homepage() {
                 and financial literacy.
               </p>
               <br />
-              <p className="text-2xl font-bold">
+              <p className="text-2xl font-bold font-poppins">
                 {" "}
                 Let's unravel dimensions and unite perspectives together!
               </p>
@@ -332,47 +332,47 @@ function Homepage() {
 
       {/****************************************************************************** BANNER***************************************************************************** */}
 
-      <div className="bg-white justify pt-3  w-full ">
+      <div className="bg-white justify pt-3  w-full font-poppins">
         <div class=" flex  bg-ban-ner w-full   justify-around items-center   ">
           <div className="flex  flex-col  items-start text-white  py-1  px-1 justify-center ">
-            <div className="lg:text-7xl md:text-4xl  sm:text-1xl  font-bold">
+            <div className="font-poppins lg:text-7xl md:text-4xl  sm:text-1xl  font-bold">
               425
             </div>
-            <div className="lg:text-4xl  md:text-2xl  sm:text-1xl">IEDCs</div>
+            <div className="font-poppins lg:text-4xl  md:text-2xl  sm:text-1xl">IEDCs</div>
           </div>
 
           <div className="flex flex-col  items-start text-white py-10 justify-center ">
-            <div className="lg:text-7xl  md:text-4xl sm:text-1xl  font-bold">
+            <div className="font-poppins lg:text-7xl  md:text-4xl sm:text-1xl  font-bold">
               8K+
             </div>
-            <div className="lg:text-4xl  md:text-2xl  sm:text-1xl sm:text-sm">
+            <div className="font-poppins lg:text-4xl  md:text-2xl  sm:text-1xl sm:text-sm">
               Changemakers
             </div>
           </div>
 
           <div className="flex flex-col items-start  text-white py-10 ">
-            <div className="lg:text-7xl  md:text-4xl sm:text-1xl  font-bold">
+            <div className="font-poppins lg:text-7xl  md:text-4xl sm:text-1xl  font-bold">
               50K+
             </div>
-            <div className="lg:text-4xl  md:text-2xl  sm:text-1xl ">
+            <div className="font-poppins lg:text-4xl  md:text-2xl  sm:text-1xl ">
               Innovators
             </div>
           </div>
 
           <div className="flex flex-col items-start	 text-white py-10 ">
-            <div className="lg:text-7xl md:text-4xl  sm:text-1xl  font-bold">
+            <div className="font-poppins lg:text-7xl md:text-4xl  sm:text-1xl  font-bold">
               336+
             </div>
-            <div className="lg:text-4xl md:text-2xl  sm:text-1xl ">
+            <div className="font-poppins lg:text-4xl md:text-2xl  sm:text-1xl ">
               StartUps
             </div>
           </div>
 
           <div className="flex flex-col 	items-start text-white  py-10 ">
-            <div className="lg:text-7xl  md:text-4xl sm:text-1xl font-bold">
+            <div className="font-poppins lg:text-7xl  md:text-4xl sm:text-1xl font-bold">
               5K+
             </div>
-            <div className="lg:text-4xl  md:text-2xl sm:text-1xl">
+            <div className="font-poppins lg:text-4xl  md:text-2xl sm:text-1xl">
               Activities
             </div>
           </div>
@@ -406,7 +406,7 @@ function Homepage() {
       </div>
 
       {/* ***********************************************************FOOTER ************************************************************/}
-      <footer className="pt-2 bg-gray-900 justify-center dark:bg-gray-900  ">
+      <footer className="pt-2 bg-gray-900 justify-center dark:bg-gray-900 font-poppins ">
         <div className="grid flex md:grid-cols-2 lg:grid-cols-2   ">
           <div className="justify-center center">
             <div className="flex flex-row justify-center space-x-10 py-5">
@@ -415,28 +415,28 @@ function Homepage() {
             </div>
             <ul>
               <li className="mb-4">
-                <p className="text-gray-600  dark:text-gray-600">
+                <p className="font-poppins text-gray-600  dark:text-gray-600">
                   G3B, Thejaswini, Technopark Campus
                 </p>
-                <p className="text-gray-600  dark:text-gray-600">
+                <p className="font-poppins text-gray-600  dark:text-gray-600">
                   Kariyavattom, Trivandrum, Kerala 695581
                 </p>
               </li>
               <li>
-                <p className="text-gray-600  dark:text-gray-600">For Queries</p>
-                <p className="text-gray-400  dark:text-gray-400 text-sm lg:text:md ">
+                <p className="font-poppins text-gray-600  dark:text-gray-600">For Queries</p>
+                <p className="font-poppins text-gray-400  dark:text-gray-400 text-sm lg:text:md ">
                   iedckerala@startupmission.in
                 </p>
               </li>
 
               <li>
-                <p className="pt-5 text-gray-400  dark:text-gray-400">
+                <p className="font-poppins pt-5 text-gray-400  dark:text-gray-400">
                   Bergin S Russel
                 </p>
-                <p className="text-gray-600  dark:text-gray-600">
+                <p className="font-poppins text-gray-600  dark:text-gray-600">
                   iedckerala@startupmission.in
                 </p>
-                <p className="text-gray-600  dark:text-gray-600">6238998379</p>
+                <p className="font-poppins text-gray-600  dark:text-gray-600">6238998379</p>
               </li>
             </ul>
           </div>
@@ -447,30 +447,30 @@ function Homepage() {
             </div>
             <ul className="">
               <li className="mb-4">
-                <p className="text-gray-600  dark:text-gray-600">
+                <p className="font-poppins text-gray-600  dark:text-gray-600">
                   Rajagiri Valley, Kakkanad
                 </p>
-                <p className="text-gray-600  dark:text-gray-600">
+                <p className="font-poppins text-gray-600  dark:text-gray-600">
                   Kochi, Kerala, 682039
                 </p>
               </li>
               <li>
-                <p className="text-gray-600   dark:text-gray-600  ">
+                <p className="font-poppins text-gray-600   dark:text-gray-600  ">
                   For Queries
                 </p>
-                <p className="text-gray-400  dark:text-gray-400 text-sm lg:text:md">
+                <p className="font-poppins text-gray-400  dark:text-gray-400 text-sm lg:text:md">
                   rsetiedc@rajagiritech.edu.in
                 </p>
               </li>
 
               <li>
-                <p className="pt-5 text-gray-400  dark:text-gray-400">
+                <p className="font-poppins pt-5 text-gray-400  dark:text-gray-400">
                   Nitheesh Kurian
                 </p>
-                <p className="text-gray-600  dark:text-gray-600">
+                <p className="font-poppins text-gray-600  dark:text-gray-600">
                   nitheeshk@rajagiritech.edu.in
                 </p>
-                <p className="text-gray-600  dark:text-gray-600">9497413879</p>
+                <p className="font-poppins text-gray-600  dark:text-gray-600">9497413879</p>
               </li>
             </ul>
           </div>
@@ -558,22 +558,22 @@ function Homepage() {
           <div class="w-full md:w-4/12 space-x-10 px-1 mx-auto text-center pt-4 text-gray-600 dark:text-gray-600">
             <a
               href="https://startupmission.kerala.gov.in/"
-              className="hover:text-orange-500"
+              className="font-poppins hover:text-orange-500"
             >
               KSUM
             </a>
-            <a href="https://rsetiedc.in/" className="hover:text-orange-500">
+            <a href="https://rsetiedc.in/" className="font-poppins hover:text-orange-500">
               IEDC RSET
             </a>
             <a
               href="https://www.rajagiritech.ac.in/"
-              className="hover:text-orange-500"
+              className="font-poppins hover:text-orange-500"
             >
               RSET
             </a>
             <a
               href="https://iedc.startupmission.in/"
-              className="hover:text-orange-500"
+              className="font-poppins hover:text-orange-500"
             >
               IEDC
             </a>
@@ -581,7 +581,7 @@ function Homepage() {
 
           <div class="w-full mx-auto text-center pt-2">
             <div class=" text-blueGray-500 py-1">
-              <p className="text-gray-600">
+              <p className="font-poppins text-gray-600">
                 Copyright © 2023 Kerala Startup Mission. All Rights Reserved.
               </p>
             </div>
