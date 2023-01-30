@@ -521,10 +521,11 @@ function Homepage() {
             </a>
             <a href="https://www.linkedin.com/company/rset-iedc/">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
+                // xmlns="http://www.w3.org/2000/svg"
+                src="url(`https://www.svgrepo.com/show/922/linkedin.svg`)"
                 width="20"
                 height="20"
-                fill="currentColor"
+                fill="gray"
                 class="bi bi-linkedin"
                 viewBox="0 0 16 16"
               >
