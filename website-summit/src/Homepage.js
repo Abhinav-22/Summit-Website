@@ -8,6 +8,9 @@ import ksum from "./images/KSUM.png";
 import rsetiedc from "./images/rsetinnov.png";
 import rsetlogo from "./images/rset-transparent.png";
 import "./App.css";
+import './fonts/fragile.otf';
+import SpeakerDetails from "./SpeakerDetails";
+
 
 function Homepage() {
   const [navbar, setNavbar] = useState(false);
@@ -105,7 +108,7 @@ function Homepage() {
         </button>
       )}
       <div className="bg-black bg-opacity-100">
-        <div className="bg-cover bg-[url('images/bgggg.jpg')] opacity-90 w-full h-screen pb-5">
+        <div className="bg-cover bg-[url('images/bgggg.jpg')] opacity-100 w-full h-screen pb-5">
           <nav className="w-full shadow">
             <div className="justify-between px-4 mx-auto lg:max-w-6xl md:items-center md:flex md:px-5  ">
               <div>
@@ -203,7 +206,7 @@ function Homepage() {
           </nav>
           <div className="  ">
             <div class="pt-20 ">
-              <h1 className=" text-2xl text-white sm:pr-80 sm:mr-7 dark:text-white  ">
+              <h1 className=" text-2xl text-white sm:pr-80 md:pr-40 sm:mr-7 dark:text-white  ">
                 Asia's <span className="font-bold">largest</span>{" "}
                 <span className="text-white">
                   summit for Aspiring entrepreneur
@@ -224,24 +227,9 @@ function Homepage() {
               </h1>
             </div>
 
-            <center>
-              <h4 className=" flex flex-row pt-5 sm:pr-60 justify-end text-2xl text-white dark:text-white">
-                <svg
-                  className="h-7 w-7"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  aria-hidden="true"
-                >
-                  <path
-                    clipRule="evenodd"
-                    fillRule="evenodd"
-                    d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
-                  ></path>
-                </svg>
-                Rajagiri School of Engineering and Technology
-              </h4>
-            </center>
+            
+
+           
 
             <div className="pt-10 flex justify-center">
               <div className="">
@@ -269,6 +257,27 @@ function Homepage() {
                 <span className="text-white">Seconds</span>
               </div>
             </div>
+                    
+
+            <h4 className=" flex justify-center pt-5 text-3xl sm:text-2xl md:text-3xl text-white dark:text-white">
+            <svg
+                  className="h-7 w-7 text-orange-600 dark:text-orange-600"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <path
+                    clipRule="evenodd"
+                    fillRule="evenodd"
+                    d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
+                  ></path>
+            </svg>
+            
+              Rajagiri School of Engineering and Technology
+            
+            </h4>
+
 
             <div className=" space-x-20 flex flex-row justify-center pt-10 ">
               <button
@@ -335,6 +344,13 @@ function Homepage() {
           </div>
         </div>
       </div>
+
+
+
+
+
+{/****************************************************************************** BANNER***************************************************************************** */}
+
       <div className="bg-white justify pt-3  w-full ">
         <div class=" flex  bg-ban-ner w-full   justify-around items-center   ">
           <div className="flex  flex-col  items-start text-white  py-1  px-1 justify-center ">
@@ -382,6 +398,49 @@ function Homepage() {
         </div>
       </div>
 
+
+
+
+
+
+
+{/* ***********************************************SPEAKERS ***********************************/}
+
+
+
+
+<div
+      className=" speaker-container pl-10 pr-10 pt-10 pb-10"
+      id="speaker-container"
+    >
+      <div className="mb-4 text-5xl font-extrabold leading-none tracking-tight text-gray-900 sm:text-7xl md:text-8xl lg:text-8xl dark:text-orange-600 m-auto inline font-face-gm">
+        Speakers
+      </div>
+      <div className=" flex flex-wrap justify-center ">
+        {SpeakerDetails.map((item) => (
+          <div className="flex flex-col ml-16 mr-10 mt-10">
+            
+
+            <img
+              className=" rounded-full	w-60 "
+              src={item.imagesrc}
+              alt="Speaker"
+              />
+        
+            <div className="text-3xl  text-orange-600">
+              {" "}
+              {item.name}
+            </div>
+
+            
+            <div className="text-2xl  opacity-70"> {item.occ}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+
+
+{/* ***********************************************************FOOTER ************************************************************/}
       <footer className="pt-2 bg-gray-900 justify-center dark:bg-gray-900  ">
         <div className="grid flex md:grid-cols-2 lg:grid-cols-2   ">
           <div className="justify-center center">
