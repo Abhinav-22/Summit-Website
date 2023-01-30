@@ -201,9 +201,14 @@ function Homepage() {
               </div>
             </div>
           </nav>
+
+
+
           <div className="  ">
+
+          <div className="inline-block ">
             <div class="pt-20 ">
-              <h1 className="font-poppins text-2xl text-white sm:pr-80 md:pr-40 sm:mr-7 dark:text-white  font-poppins">
+              <h1 className=" lg:text-start md:text-center sm:text-center font-poppins text-2xl text-white dark:text-white  font-poppins">
                 Asia's <span className="font-bold">largest</span>{" "}
                 <span className="text-white">
                   summit for Aspiring entrepreneur
@@ -211,7 +216,7 @@ function Homepage() {
               </h1>
             </div>
 
-            <div className="flex flex-col font-poppins">
+            <div className=" font-poppins">
               <h1 className="pt-2 text-5xl font-extrabold leading-none tracking-tight text-white sm:text-7xl md:text-6xl lg:text-8xl dark:text-white mx-auto inline">
                 IEDC{" "}
                 <span className="text-orange-600 dark:text-orange-600">
@@ -219,10 +224,13 @@ function Homepage() {
                 </span>{" "}
                 <span className="text-white">2023</span>
               </h1>
-              <h1 className="right-44 pt-3 text-2xl  leading-none tracking-tight text-white  dark:text-white font-poppins">
+              <h1 className="lg:text-right	md:text-center sm:text-center right-44 pt-3 text-2xl  leading-none tracking-tight text-white  dark:text-white font-poppins">
                 Unravelling Dimensions Uniting Perspectives{" "}
               </h1>
             </div>
+
+          </div> 
+
 
             <div className="pt-10 flex justify-center font-poppins">
               <div className="">
@@ -251,7 +259,7 @@ function Homepage() {
               </div>
             </div>
 
-            <h4 className=" flex justify-center pt-5 text-3xl sm:text-2xl md:text-3xl text-white dark:text-white font-poppins">
+            <h4 className=" flex justify-center pt-5 lg:text-3xl  sm:text-2xl md:text-2xl text-white dark:text-white font-poppins">
               <svg
                 className="h-7 w-7 text-orange-600 dark:text-orange-600"
                 fill="currentColor"
